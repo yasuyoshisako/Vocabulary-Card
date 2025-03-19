@@ -1,0 +1,1349 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.6.30)  19 MAR 2025 18:52
+ restricted system commands enabled.
+**VocabularyCard
+(./VocabularyCard.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/yasuyoshi/.texlive2024/texmf-
+var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-
+2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/yasuyoshi/.texlive2024/texmf-
+var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
+4/texmf-dist/tex/latex/jlreq/jlreq.cls
+Document Class: jlreq 2024/02/16 jlreq
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count192
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box52
+))
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+Package: jlreq-helpers 2024/02/13 jlreq-helpers
+\jlreq@tempcnta=\count194
+\jlreq@tempcntb=\count195
+\jlreq@tempcntc=\count196
+\jlreq@tempdima=\dimen140
+\jlreq@tempdimb=\dimen141
+\jlreq@tempdimc=\dimen142
+\jlreq@tempskipa=\skip49
+\jlreq@tempskipb=\skip50
+\jlreq@tempskipc=\skip51
+\jlreq@tempboxa=\box53
+\jlreq@tempboxb=\box54
+\jlreq@tempboxc=\box55
+\jlreq@resultdimen=\dimen143
+\jlreq@resultskip=\skip52
+\jlreq@resultbox=\box56
+\jlreq@resultcnt=\count197
+\jlreq@reference@count=\count198
+\jlreq@currentpage=\count199
+)
+\l__jlreq_tmpa_int=\count266
+\l__jlreq_tmpa_dim=\dimen144
+\l_jlreq_tmpa_skip=\skip53
+\l_jlreq_tmpa_box=\box57
+\l_jlreq_tmpb_box=\box58
+\l_jlreq_tmpc_box=\box59
+
+jlreq guessed engine: lualatex
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/luatexja.sty
+Package: luatexja 2024-05-14 Japanese Typesetting with Lua(La)TeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+Package: luatexja-core 2023-04-06 Core of LuaTeX-ja
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count267
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count268
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/everyhook/everyhook.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
+X primitives.
+\everypar=\toks20
+\frozen@everymath=\toks21
+\frozen@everydisplay=\toks22
+\everyhbox=\toks23
+\everyvbox=\toks24
+\everycr=\toks25
+)
+\ltjlineendcomment=\count269
+\ltj@dimen@zw=\dimen145
+\ltj@dimen@zh=\dimen146
+\ltj@dimen@jQ=\dimen147
+\ltj@icflag=\attribute4
+\ltj@curjfnt=\attribute5
+\ltj@curtfnt=\attribute6
+\ltj@charclass=\attribute7
+\ltj@charcode=\attribute8
+\ltj@autospc=\attribute9
+\ltj@autoxspc=\attribute10
+\ltj@yablshift=\attribute11
+\ltj@ykblshift=\attribute12
+\ltj@tablshift=\attribute13
+\ltj@tkblshift=\attribute14
+\jfam=\attribute15
+\ltj@vert@ori=\attribute16
+\ltj@dir=\attribute17
+\ltj@@japanese=\language2
+\ltj@tempcnta=\count270
+\ltj@tempdima=\dimen148
+\ltj@@stack=\count271
+\ltj@@group@level=\count272
+\ltj@kcat0=\attribute18
+\ltj@kcat1=\attribute19
+\ltj@kcat2=\attribute20
+\ltj@kcat3=\attribute21
+\ltj@kcat4=\attribute22
+\ltj@kcat5=\attribute23
+\ltj@kcat6=\attribute24
+Custom whatsit inhibitglue = 1
+Custom whatsit stack_marker = 2
+Custom whatsit begin_par = 3
+Custom whatsit direction = 4
+Custom whatsit box_boundary = 5
+Custom whatsit ja_al_boundary = 6(load cache: ltj-cid-auto-adobe-japan1.luc)
+Lua module: luatexja.charrange 2022-08-19 Handling the range of Japanese charact
+ers
+Lua module: luatexja.stack 2022-08-20 LuaTeX-ja stack system
+Inserting `ltj.create_dir_whatsit' in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' in `post_linebreak_filter'.
+Inserting `ltj.direction' in `vpack_filter'.
+Inserting `ltj.direction' in `pre_output_filter'.
+Inserting `ltj.lineskip' in `post_linebreak_filter'.
+Inserting `ltj.lineskip' in `append_to_vlist_filter'.
+Lua module: luatexja.jfont 2023-04-06 Loader for Japanese fonts
+Removing  `luaotfload.define_font' from `define_font'.
+Inserting `luatexja.font_callback' in `define_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' in `luatexja.define_font'.
+Inserting `ltj.get_vert_form' in `luatexja.define_jfont'.
+Removing  `ltj.prepare_extra_data' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_sscale_dimens' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_font_index' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.patch_cambria_domh' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_capheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.aux.set_xheight' from `luaotfload.patch_font'.
+Removing  `luaotfload.rewrite_fontname' from `luaotfload.patch_font'.
+Inserting `ltj.supply_tounicode' in `luaotfload.patch_font'.
+Inserting `ltj.prepare_extra_data' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Inserting `ltj.hyphenate' in `hyphenate'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.set_stack_level' in `hpack_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' in `hpack_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Lua module: luatexja.jfmglue 2022-08-29 Insertion process of JFM glues, [x]kanji
+skip and others
+Inserting `luatexja.beginpar.np_info' in `luatexja.jfmglue.whatsit_getinfo'.
+Inserting `luatexja.beginpar.np_info_after' in `luatexja.jfmglue.whatsit_after'.
+Inserting `ltj.mlist_to_hlist_pre' in `pre_mlist_to_hlist_filter'.
+Inserting `ltj.main' in `pre_linebreak_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.main' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' in `hpack_filter'.
+Removing  `ltj.set_stack_level' from `pre_linebreak_filter'.
+Removing  `luaotfload.node_processor' from `pre_linebreak_filter'.
+Removing  `ltj.main' from `pre_linebreak_filter'.
+Inserting `ltj.adjust_icflag' in `pre_linebreak_filter'.
+Inserting `ltj.set_stack_level' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `ltj.main' in `pre_linebreak_filter'.
+Removing  `ltj.set_stack_level' from `hpack_filter'.
+Removing  `luaotfload.node_processor' from `hpack_filter'.
+Removing  `ltj.main' from `hpack_filter'.
+Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
+Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
+Inserting `ltj.adjust_icflag' in `hpack_filter'.
+Inserting `ltj.set_stack_level' in `hpack_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `ltj.main' in `hpack_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `ltj.create_dir_whatsit' in `hpack_filter'.
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/ltj-base.sty
+Package: ltj-base 2021-03-16
+\ltj@tempcntb=\count273
+\ltj@tempcntc=\count274
+\ltj@afbox=\box60
+)
+\ltj@@italic@inner=\luafunction29
+\ltj@@start@time@measure@inner=\luafunction30
+\ltj@@stop@time@measure@inner=\luafunction31
+\ltj@@jfont@inner=\luafunction32
+\ltj@zw@inner=\luafunction33
+\ltj@zh@inner=\luafunction34
+\ltj@reset@globaldefs@inner=\luafunction35
+\ltj@restore@globaldefs@inner=\luafunction36
+\ltj@@disihb@inner=\luafunction37
+\ltj@@ihb@inner=\luafunction38
+\ltj@@fakeparbegin@inner=\luafunction39
+\ltj@@fakeboxbdd@inner=\luafunction40
+\ltj@@ins@xk@inner=\luafunction41
+\ltj@@ins@k@inner=\luafunction42
+\ltjsetkanjiskip@inner=\luafunction43
+\ltjsetxkanjiskip@inner=\luafunction44
+\ltj@@getparam@one@inner=\luafunction45
+\ltj@alljachar@inner=\luafunction46
+\ltj@@lua@populate@insertwhatsit@inner=\luafunction47
+\ltj@@vadjust@begin@inner=\luafunction48
+\ltj@@vadjust@dirhook@inner=\luafunction49
+\ltj@@vadjust@check@dir@inner=\luafunction50
+\ltj@@box@dirhook@inner=\luafunction51
+\ltj@@reset@badness@inner=\luafunction52
+\ltj@@lua@raisebox@inner=\luafunction53
+\ltj@@vsplit@inner=\luafunction54
+\ltj@@lua@unboxcheckdir@inner=\luafunction55
+\ltj@@lua@uncopycheckdir@inner=\luafunction56
+\ltj@@lua@uncopy@restore@whatsit@inner=\luafunction57
+(load cache: ltj-kinsoku_default.luc)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+Package: ltj-latex 2022-10-15 LaTeX support of LuaTeX-ja
+Inserting `ltj.direction' in `pre_shipout_filter'.
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+Package: lltjfont 2023-04-13 Patch to NFSS2 for LuaTeX-ja
+\ltj@@latex@plv=\count275
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2021/04/29 v2.0v Standard LaTeX file
+\@remove@tlig@@@=\luafunction58
+LaTeX Font Info:    Redeclaring font encoding TU on input line 105.
+)
+\Cht=\dimen149
+\cht=\dimen150
+\Cdp=\dimen151
+\cdp=\dimen152
+\Cwd=\dimen153
+\cwd=\dimen154
+\Cvs=\dimen155
+\cvs=\dimen156
+\Chs=\dimen157
+\chs=\dimen158
+\cHT=\dimen159
+\dstrutbox=\box61
+\tstrutbox=\box62
+\zstrutbox=\box63
+LaTeX Info: Redefining \strut on input line 91.
+\ltj@@add@fenc@@inner=\luafunction59
+\ltj@@add@kyenc@@inner=\luafunction60
+\ltj@@add@ktenc@@inner=\luafunction61
+\ltj@@is@kyenc@@inner=\luafunction62
+\ltj@@is@ktenc@@inner=\luafunction63
+\ltj@@is@kenc@@inner=\luafunction64
+\ltj@@is@ffam@@inner=\luafunction65
+\ltj@@add@ffam@@inner=\luafunction66
+\ltj@@add@kfam@@inner=\luafunction67
+\ltj@@adjust@baseline@inner=\luafunction68
+LaTeX Info: Redefining \fontencoding on input line 646.
+LaTeX Info: Redefining \fontfamily on input line 689.
+LaTeX Info: Redefining \fontseries on input line 923.
+LaTeX Info: Redefining \fontseriesforce on input line 924.
+LaTeX Info: Redefining \fontshape on input line 944.
+LaTeX Info: Redefining \fontshapeforce on input line 955.
+\ltj@@jfont@@jfmonly@@inner=\luafunction69
+\ltj@@does@alt@set@@inner=\luafunction70
+\ltj@@cipath@clear@inner=\luafunction71
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+Package: lltjdefs 2022-01-23 Default font settings of LuaTeX-ja
+luaotfload | db : Font names database loaded from /home/yasuyoshi/.texlive2024/t
+exmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz(load cache: extra_lm
+roman10-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 79.
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/jlreq/jfm-jlreqv.lua)
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 79.
+(load cache: extra_haranoajimincho-regular.luc)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/jlreq/jfm-jlreq.lua)
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 88.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
+Package: lltjcore 2023-02-26 Patch to LaTeX2e Kernel for LuaTeX-ja
+\@tombowwidth=\dimen160
+\@TL=\box64
+\@Tl=\box65
+\@TC=\box66
+\@TR=\box67
+\@Tr=\box68
+\@BL=\box69
+\@Bl=\box70
+\@BC=\box71
+\@BR=\box72
+\@Br=\box73
+\@CL=\box74
+\@CR=\box75
+(load cache: extra_lmmono9-regular.luc)
+\@bannertoken=\toks26
+\@@paperheight=\dimen161
+\@@paperwidth=\dimen162
+\@@topmargin=\dimen163
+LaTeX Info: Redefining \underline on input line 283.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.
+sty
+Package: lltjp-atbegshi 2024-05-14 Patching \shipout hooks for LuaTeX-ja
+\l__platex_shipout_dummy_box=\box76
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+sty
+Package: lltjp-geometry 2021-10-24 Patch to geometry for LuaTeX-ja with vertica
+l writing mode
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)))
+\ltj@temp@cctb=\catcodetable16
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
+Package: luatexja-compat 2020-08-08 Compatibility with pTeX
+(load cache: ltj-jisx0208.luc)
+\hour=\count276
+\minute=\count277
+))
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/addons/luatexja-adjust.
+sty
+Package: luatexja-adjust 2022-02-11
+Custom whatsit ghost of a jachar = 7
+Removing  `luatexja.beginpar.np_info' from `luatexja.jfmglue.whatsit_getinfo'.
+Inserting `ghost of a JACHAR' in `luatexja.jfmglue.whatsit_getinfo'.
+Inserting `luatexja.beginpar.np_info' in `luatexja.jfmglue.whatsit_getinfo'.
+Removing  `luatexja.beginpar.np_info_after' from `luatexja.jfmglue.whatsit_after
+'.
+Inserting `ghost of a JACHAR' in `luatexja.jfmglue.whatsit_after'.
+Inserting `luatexja.beginpar.np_info_after' in `luatexja.jfmglue.whatsit_after'.
+\ltjadj@status@le=\count278
+\ltjadj@status@lp=\count279
+\ltjadj@status@pr=\count280
+\ltjadj@status@ls=\count281
+Removing  `ltj.create_dir_whatsit' from `post_linebreak_filter'.
+Removing  `ltj.lineskip' from `post_linebreak_filter'.
+Inserting `Adjust width' in `post_linebreak_filter'.
+Inserting `ltj.create_dir_whatsit' in `post_linebreak_filter'.
+Inserting `ltj.lineskip' in `post_linebreak_filter'.
+\ltj@@ghost@jachar@inner@both=\luafunction72
+\ltj@@ghost@jachar@inner@before=\luafunction73
+\ltj@@ghost@jachar@inner@after=\luafunction74
+)
+Inserting `luatexja.adjust' in `luatexja.adjust_jfmglue'.
+\jlreq@current@linewidth=\dimen164
+\jlreq@rest@linewidth=\dimen165
+\jlreq@lastnodechar=\count282
+\jlreq@fontsize=\dimen166
+\jlreq@jafontsize=\dimen167
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)(load cache: extra_lmroman9-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 1191.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 1191.
+\jlreq@baselineskip=\dimen168
+\jlreq@omotekeiwidth=\dimen169
+\jlreq@chuubusokeiwidth=\dimen170
+\jlreq@urakeiwidth=\dimen171
+\jlreq@sidenote@length=\dimen172
+\jlreq@sidenote@sep=\dimen173
+(load cache: extra_lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 1378.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 1378.
+\jlreq@BlockHeading@start@label@box=\box77
+\jlreq@BlockHeading@spaces@current@count=\count283
+\c@part=\count284
+\c@chapter=\count285
+\c@section=\count286
+\c@subsection=\count287
+\c@subsubsection=\count288
+\c@paragraph=\count289
+\c@subparagraph=\count290
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count291
+\c@dblbotnumber=\count292
+)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
+sty)
+\jlreq@endnote@prepostspace=\dimen174
+\jlreq@endnote@indent=\dimen175
+\jlreq@PageStyle@box=\box78
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\c@figure=\count293
+\c@table=\count294
+\jlreq@abstractbox=\box79
+\toclineskip=\skip56
+\@lnumwidth=\dimen176
+\jlreq@top@contents=\count295
+(load cache: extra_lmroman8-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 7.68198pt on input line 6432.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 7.68198pt on input line 6432.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/jlreq/jlreq-complements.sty
+Package: jlreq-complements 2022/11/28 jlreq-complements
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))))
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.
+sty
+Package: luatexja-preset 2024-03-30 Japanese font presets
+\g__ltjpreset_applycount_int=\count296
+
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c.sty
+Package: luatexja-fontspec 2024-05-14 fontspec support of LuaTeX-ja
+(load cache: extra_lmroman17-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 14.71997pt on input line 16.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 14.71997pt on input line 16.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 2.9e Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count297
+\l__fontspec_language_int=\count298
+\l__fontspec_strnum_int=\count299
+\l__fontspec_tmp_int=\count300
+\l__fontspec_tmpa_int=\count301
+\l__fontspec_tmpb_int=\count302
+\l__fontspec_tmpc_int=\count303
+\l__fontspec_em_int=\count304
+\l__fontspec_emdef_int=\count305
+\l__fontspec_strong_int=\count306
+\l__fontspec_strongdef_int=\count307
+\l__fontspec_tmpa_dim=\dimen177
+\l__fontspec_tmpb_dim=\dimen178
+\l__fontspec_tmpc_dim=\dimen179
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)(load cache:
+ extra_lmroman9-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <9.27786> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 3978.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 3978.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <9.27786> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 3978.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 3978.
+(load cache: extra_haranoajigothic-medium.luc)))
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
+sty)
+(/usr/local/texlive/2024/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c-29e.sty
+Package: luatexja-fontspec-29e 2024-05-14 fontspec support of LuaTeX-ja
+\g__ltj_fontspec_altnumber_int=\count308
+))
+
+Package luatexja-preset Warning: Japanese fonts will be scaled by
+(luatexja-preset)                0.9199981689453125.
+
+
+Package luatexja-fontspec Warning: \addjfontfeature(s) ignored;
+(luatexja-fontspec)                it cannot be used with a font that wasn't
+(luatexja-fontspec)                selected by luatexja-fontspec.
+
+luaotfload | cache : Lookup cache loaded from /home/yasuyoshi/.texlive2024/texmf
+-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: extra_h
+irakakustd-w8.luc)(load cache: extra_hiramarupro-w4.luc)
+luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: Font "HiraMin
+Pro-W2" not found.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+
+Package luatexja-preset Warning: Font HiraMinPro-W2 (mc/l) is not found. Hence
+(luatexja-preset)                I substitute HiraMinPro-W3 (mc/m) for it.
+
+(load cache: extra_hiraminpro-w3.luc)
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W3 scale = 0.9199981689453125.
+
+(load cache: extra_hiraminpro-w6.luc)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMinPro-W6/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMinPro-W3/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMinPro-W3/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W6 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMinPro-W6 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HiraMinPro-W3(0)' created for font
+(fontspec)             'HiraMinPro-W3' with options
+(fontspec)             [YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},Scal
+e=0.9199981689453125,Kerning=Off,Script=CJK,FontFace={l}{n}{Font=HiraMinPro-W3,
+},BoldFont=HiraMinPro-W6,YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},Scr
+ipt=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 734.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
+(Font)                  JY3/mc/m/n --> JY3/HiraMinPro-W3(0)/m/n on input line 7
+34.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY3/gt/m/n --> JY3/HiraMinPro-W3(0)/m/n on input line 7
+34.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY3/HiraMinPro-W3(0)/m/n --> JY3/HiraMinPro-W3(0)/b/n o
+n input line 734.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 734.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 734.
+(load cache: extra_hirakakupro-w3.luc)
+
+Package fontspec Info: 
+(fontspec)             HiraKakuPro-W3 scale = 0.9199981689453125.
+
+(load cache: extra_hirakakupro-w6.luc)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraKakuPro-W6/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraKakuPro-W3/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraKakuPro-W3/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuStd-W8 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuStd-W8 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuPro-W3 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuPro-W6 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraKakuPro-W6 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HiraKakuPro-W3(0)' created for font
+(fontspec)             'HiraKakuPro-W3' with options
+(fontspec)             [YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},Scal
+e=0.9199981689453125,Kerning=Off,Script=CJK,FontFace={eb}{n}{Font=HiraKakuStd-W
+8,},BoldFont=HiraKakuPro-W6,YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},
+Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 734.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
+(Font)                  JY3/gt/m/n --> JY3/HiraKakuPro-W3(0)/m/n on input line 
+734.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY3/gt/m/n --> JY3/HiraKakuPro-W3(0)/m/n on input line 
+734.
+
+Package fontspec Info: 
+(fontspec)             HiraMaruPro-W4 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMaruPro-W4/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMaruPro-W4/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "HiraMaruPro-W4/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             HiraMaruPro-W4 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMaruPro-W4 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMaruPro-W4 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             HiraMaruPro-W4 scale = 0.9199981689453125.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'HiraMaruPro-W4(0)' created for font
+(fontspec)             'HiraMaruPro-W4' with options
+(fontspec)             [YokoFeatures={JFM=jlreq},TateFeatures={JFM=jlreqv},Scal
+e=0.9199981689453125,Kerning=Off,Script=CJK,BoldFont=HiraMaruPro-W4,YokoFeature
+s={JFM=jlreq},TateFeatures={JFM=jlreqv},Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
+)(load cache: extra_sourceserifpro-regular.luc)(load cache: extra_sourceserifpro
+-boldit.luc)(load cache: extra_sourceserifpro-bold.luc)(load cache: extra_source
+serifpro-it.luc)
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceSerifPro(0)' created for font
+(fontspec)             'Source Serif Pro' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Source Serif
+(fontspec)             Pro:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Source
+(fontspec)             Serif
+(fontspec)             Pro:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Source Serif
+(fontspec)             Pro/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Source Serif
+(fontspec)             Pro/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Source
+(fontspec)             Serif Pro/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Source
+(fontspec)             Serif
+(fontspec)             Pro/BI:mode=node;script=latn;language=dflt;+tlig;"
+
+(load cache: extra_sourcesanspro-regular.luc)(load cache: extra_sourcesanspro-bo
+ldit.luc)(load cache: extra_sourcesanspro-bold.luc)(load cache: extra_sourcesans
+pro-it.luc)
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 67 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 68 (nil) does not define feature smcp for script dflt
+ with language dflt
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceSansPro(0)' created for font 'Source
+(fontspec)             Sans Pro' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Source Sans
+(fontspec)             Pro:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Source
+(fontspec)             Sans
+(fontspec)             Pro:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Source Sans
+(fontspec)             Pro/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Source Sans
+(fontspec)             Pro/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Source Sans
+(fontspec)             Pro/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Source
+(fontspec)             Sans Pro/BI:mode=node;script=latn;language=dflt;+tlig;"
+
+(load cache: extra_doulossil.luc)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Doulos SIL/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Doulos SIL/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Doulos SIL/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'DoulosSIL(0)' created for font 'Doulos
+(fontspec)             SIL' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Doulos
+(fontspec)             SIL:mode=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Doulos
+(fontspec)             SIL:mode=node;script=latn;language=dflt;+smcp;"
+
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box80
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen182
+\Gin@req@width=\dimen183
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen184
+\pgf@y=\dimen185
+\pgf@xa=\dimen186
+\pgf@ya=\dimen187
+\pgf@xb=\dimen188
+\pgf@yb=\dimen189
+\pgf@xc=\dimen190
+\pgf@yc=\dimen191
+\pgf@xd=\dimen192
+\pgf@yd=\dimen193
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count313
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+ef
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen194
+\pgfmath@count=\count316
+\pgfmath@box=\box81
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count317
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen195
+\pgf@picmaxx=\dimen196
+\pgf@picminy=\dimen197
+\pgf@picmaxy=\dimen198
+\pgf@pathminx=\dimen199
+\pgf@pathmaxx=\dimen256
+\pgf@pathminy=\dimen257
+\pgf@pathmaxy=\dimen258
+\pgf@xx=\dimen259
+\pgf@xy=\dimen260
+\pgf@yx=\dimen261
+\pgf@yy=\dimen262
+\pgf@zx=\dimen263
+\pgf@zy=\dimen264
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen265
+\pgf@path@lasty=\dimen266
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen267
+\pgf@shorten@start@additional=\dimen268
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box82
+\pgf@hbox=\box83
+\pgf@layerbox@main=\box84
+\pgf@picture@serial@count=\count318
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen269
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen270
+\pgf@pt@y=\dimen271
+\pgf@pt@temp=\dimen272
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen273
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen274
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box85
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box86
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen275
+\pgf@nodesepend=\dimen276
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen277
+\pgffor@skip=\dimen278
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen279
+)
+\tikz@lastx=\dimen280
+\tikz@lasty=\dimen281
+\tikz@lastxsaved=\dimen282
+\tikz@lastysaved=\dimen283
+\tikz@lastmovetox=\dimen284
+\tikz@lastmovetoy=\dimen285
+\tikzleveldistance=\dimen286
+\tikzsiblingdistance=\dimen287
+\tikz@figbox=\box87
+\tikz@figbox@bg=\box88
+\tikz@tempbox=\box89
+\tikz@tempbox@bg=\box90
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
+)
+\tikz@expandcount=\count329
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (./VocabularyCard.aux)
+\openout1 = VocabularyCard.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Trying loading font information for TS1+cmr on input line 3
+3.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count330
+\scratchdimen=\dimen288
+\scratchbox=\box91
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen289
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks40
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 42.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.53561pt on input line 42.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 5.97493pt on input line 42.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 5.97493pt on input line 42.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 21.33904pt on input line 43.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 21.33904pt on input line 43.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 11.94986pt on input line 44.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 11.94986pt on input line 44.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 45.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 45.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 151.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.8285pt on input line 151.
+
+
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2]
+
+[3]
+
+[4] (./VocabularyCard.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 19310 strings out of 475915
+ 477808,1977958 words of node,token memory allocated
+ 961 words of node memory still in use:
+   8 hlist, 1 vlist, 5 rule, 2 glue, 3 kern, 2 glyph, 197 attribute, 45 glue_spe
+c, 27 attribute_list, 3 write, 10 user_defined, 1 pdf_colorstack nodes
+   avail lists: 1:36,2:171989,3:5401,4:2654,5:485,6:5,7:7945,8:2,9:3124,11:117
+ 41423 multiletter control sequences out of 65536+600000
+ 85 fonts using 116638903 bytes
+ 110i,12n,137p,1841b,1286s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/yasuyoshi/.local/share/fonts/ヒラギノ角ゴ Pro W3.otf></usr/local/te
+xlive/2024/texmf-dist/fonts/truetype/public/doulossil/Doulos_SIL_Regular.ttf></u
+sr/local/texlive/2024/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerif
+Pro-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/adobe/sources
+anspro/SourceSansPro-Regular.otf>
+Output written on VocabularyCard.pdf (4 pages, 112258 bytes).
+
+PDF statistics: 48 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

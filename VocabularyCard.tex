@@ -1,0 +1,432 @@
+\documentclass[
+    report,
+    paper={297mm,210mm},
+    jafontsize=12Q,
+    jafontscale=0.92,
+    baselineskip=1.5zw,
+    line_length=277mm,
+    gutter=10mm,
+    head_space=10mm,
+    foot_space=10mm,
+    headfoot_sidemargin=0pt,
+    sidenote_length=0pt,
+    hanging_punctuation]{jlreq}
+
+\usepackage[hiragino-pro,deluxe,match,jfm_yoko=jlreq,jfm_tate=jlreqv]{luatexja-preset}
+\usepackage{fontspec}
+\setmainfont{Source Serif Pro}
+\setsansfont{Source Sans Pro}
+
+\newfontfamily{\ipafont}{Doulos SIL}
+
+\usepackage{tikz}
+
+\newcommand{\hinshi}[2][12]{%
+    \begin{tikzpicture}[x=0.1em,y=0.1em]
+        \useasboundingbox (0,0) rectangle (#1,9);
+        \draw[rounded corners=0.2em] (0,-3) rectangle (#1,9);
+        \draw[anchor=base] (#1/2,0) node {\sffamily #2};
+    \end{tikzpicture}}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{figure}[p!]
+    \centering
+    \begin{tikzpicture}
+        \draw[dotted,thin,gray] (0,0) grid[xstep=9,ystep=3.5] (27,17.5);
+    
+        \draw[dotted,thin,gray] (0.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 15.2) -- (7.8, 15.2);
+        \draw (8.8, 17) node[anchor=east] {\sffamily \scriptsize 1};
+        \draw (4.5, 16.4) node[anchor=center] {\sffamily \Huge everybody};
+        \draw (4.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈɛvriˌbʌdi}\ ]};
+        \draw (4.5, 14.6) node[align=left] {\footnotesize Good morning, everybody!};
+        \draw[dotted,thin,gray] (9.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 15.2) -- (16.8, 15.2);
+        \draw (17.8, 17) node[anchor=east] {\sffamily \scriptsize 2};
+        \draw (13.5, 16.4) node[anchor=center] {\sffamily \Huge school life};
+        \draw (13.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈskuːl ˈlaɪf}\ ]};
+        \draw (13.5, 14.6) node[align=left] {\footnotesize How is your new school life?};
+        \draw[dotted,thin,gray] (18.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 15.2) -- (25.8, 15.2);
+        \draw (26.8, 17) node[anchor=east] {\sffamily \scriptsize 3};
+        \draw (22.5, 16.4) node[anchor=center] {\sffamily \Huge picture};
+        \draw (22.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈpɪktʃɚ}\ ]};
+        \draw (22.5, 14.6) node[align=left] {\footnotesize Look at the picture on the textbook.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 11.7) -- (7.8, 11.7);
+        \draw (8.8, 13.5) node[anchor=east] {\sffamily \scriptsize 4};
+        \draw (4.5, 12.9) node[anchor=center] {\sffamily \Huge junior high school};
+        \draw (4.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈʤuːnjɚ ˈhaɪ ˈskuːl}\ ]};
+        \draw (4.5, 11.1) node[align=left] {\footnotesize It's Mirai junior high school.};
+        \draw[dotted,thin,gray] (9.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 11.7) -- (16.8, 11.7);
+        \draw (17.8, 13.5) node[anchor=east] {\sffamily \scriptsize 5};
+        \draw (13.5, 12.9) node[anchor=center] {\sffamily \Huge there};
+        \draw (13.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈðeɚ}\ ]};
+        \draw (13.5, 11.1) node[align=left] {\footnotesize Mao and Ken study there.};
+        \draw[dotted,thin,gray] (18.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 11.7) -- (25.8, 11.7);
+        \draw (26.8, 13.5) node[anchor=east] {\sffamily \scriptsize 6};
+        \draw (22.5, 12.9) node[anchor=center] {\sffamily \Huge be good at ...};
+        \draw (22.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈbiː ˈgʊd ˈæt}\ ]};
+        \draw (22.5, 11.1) node[align=left] {\footnotesize She is good at drawing Manga.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 8.2) -- (7.8, 8.2);
+        \draw (8.8, 10) node[anchor=east] {\sffamily \scriptsize 7};
+        \draw (4.5, 9.4) node[anchor=center] {\sffamily \Huge gym};
+        \draw (4.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈʤɪm}\ ]};
+        \draw (4.5, 7.6) node[align=left] {\footnotesize Can you find the gym in the picture?};
+        \draw[dotted,thin,gray] (9.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 8.2) -- (16.8, 8.2);
+        \draw (17.8, 10) node[anchor=east] {\sffamily \scriptsize 8};
+        \draw (13.5, 9.4) node[anchor=center] {\sffamily \Huge sometimes};
+        \draw (13.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈsʌmˌtaɪmz}\ ]};
+        \draw (13.5, 7.6) node[align=left] {\footnotesize Mao sometimes plays basketball in the gym after \\ \footnotesize school.};
+        \draw[dotted,thin,gray] (18.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 8.2) -- (25.8, 8.2);
+        \draw (26.8, 10) node[anchor=east] {\sffamily \scriptsize 9};
+        \draw (22.5, 9.4) node[anchor=center] {\sffamily \Huge often};
+        \draw (22.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈɑːfən}\ ]};
+        \draw (22.5, 7.6) node[align=left] {\footnotesize He often goes to the science room.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 4.7) -- (7.8, 4.7);
+        \draw (8.8, 6.5) node[anchor=east] {\sffamily \scriptsize 10};
+        \draw (4.5, 5.9) node[anchor=center] {\sffamily \Huge astronaut};
+        \draw (4.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈæstrəˌnɑːt}\ ]};
+        \draw (4.5, 4.1) node[align=left] {\footnotesize He wants to be an astronaut.};
+        \draw[dotted,thin,gray] (9.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 4.7) -- (16.8, 4.7);
+        \draw (17.8, 6.5) node[anchor=east] {\sffamily \scriptsize 11};
+        \draw (13.5, 5.9) node[anchor=center] {\sffamily \Huge with};
+        \draw (13.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈwɪð}\ ]};
+        \draw (13.5, 4.1) node[align=left] {\footnotesize He is playing Shogi with a girl.};
+        \draw[dotted,thin,gray] (18.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 4.7) -- (25.8, 4.7);
+        \draw (26.8, 6.5) node[anchor=east] {\sffamily \scriptsize 12};
+        \draw (22.5, 5.9) node[anchor=center] {\sffamily \Huge difficult};
+        \draw (22.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈdɪfɪkəlt}\ ]};
+        \draw (22.5, 4.1) node[align=left] {\footnotesize It's very difficult.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 1.2) -- (7.8, 1.2);
+        \draw (8.8, 3) node[anchor=east] {\sffamily \scriptsize 13};
+        \draw (4.5, 2.4) node[anchor=center] {\sffamily \Huge learn};
+        \draw (4.5, 1.6) node[anchor=center] {\Large [\ {\ipafont ˈlɚn}\ ]};
+        \draw (4.5, 0.6) node[align=left] {\footnotesize I want to learn japanese sports.};
+        \draw[dotted,thin,gray] (9.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 1.2) -- (16.8, 1.2);
+        \draw (17.8, 3) node[anchor=east] {\sffamily \scriptsize 14};
+        \draw (13.5, 2.4) node[anchor=center] {\sffamily \Huge traditional};
+        \draw (13.5, 1.6) node[anchor=center] {\Large [\ {\ipafont trəˈdɪʃənl̟}\ ]};
+        \draw (13.5, 0.6) node[align=left] {\footnotesize This is a traditional japanese sport.};
+        \draw[dotted,thin,gray] (18.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 1.2) -- (25.8, 1.2);
+        \draw (26.8, 3) node[anchor=east] {\sffamily \scriptsize 15};
+        \draw (22.5, 2.4) node[anchor=center] {\sffamily \Huge breakfast};
+        \draw (22.5, 1.6) node[anchor=center] {\Large [\ {\ipafont ˈbrɛkfəst}\ ]};
+        \draw (22.5, 0.6) node[align=left] {\footnotesize I sometimes cook breakfast.};
+
+    \end{tikzpicture}
+\end{figure}
+
+\begin{figure}[p!]
+    \centering
+    \begin{tikzpicture}
+        % \draw[dotted,thin,gray] (0,0) grid[xstep=9,ystep=3.5] (27,17.5);
+    
+        % \draw[dotted,thin,gray] (8.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 15.2) -- (7.8, 15.2);
+        \draw (18.2, 17) node[anchor=west] {\sffamily \scriptsize 1};
+        \draw (22.5, 16.4) node[align=left] {\sffamily \hinshi{代} みんな・みなさん};
+        \draw (22.5, 14.6) node[align=left] {\sffamily \footnotesize みんなおはよう！};
+        % \draw[dotted,thin,gray] (17.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 15.2) -- (16.8, 15.2);
+        \draw (9.2, 17) node[anchor=west] {\sffamily \scriptsize 2};
+        \draw (13.5, 16.4) node[align=left] {\sffamily \hinshi{名} 学校生活};
+        \draw (13.5, 14.6) node[align=left] {\sffamily \footnotesize 新しい学校生活はどうですか？};
+        % \draw[dotted,thin,gray] (26.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 15.2) -- (25.8, 15.2);
+        \draw (0.199999999999999, 17) node[anchor=west] {\sffamily \scriptsize 3};
+        \draw (4.5, 16.4) node[align=left] {\sffamily \hinshi{名} （可）写真・絵};
+        \draw (4.5, 14.6) node[align=left] {\sffamily \footnotesize 教科書の写真を見てください。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 11.7) -- (7.8, 11.7);
+        \draw (18.2, 13.5) node[anchor=west] {\sffamily \scriptsize 4};
+        \draw (22.5, 12.9) node[align=left] {\sffamily \hinshi{名} 中学校};
+        \draw (22.5, 11.1) node[align=left] {\sffamily \footnotesize みらい中学校だよ。};
+        % \draw[dotted,thin,gray] (17.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 11.7) -- (16.8, 11.7);
+        \draw (9.2, 13.5) node[anchor=west] {\sffamily \scriptsize 5};
+        \draw (13.5, 12.9) node[align=left] {\sffamily \hinshi{副} そこに（で・へ）・あそこに（で・へ）};
+        \draw (13.5, 11.1) node[align=left] {\sffamily \footnotesize ケンとマオはそこで学んでいます。};
+        % \draw[dotted,thin,gray] (26.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 11.7) -- (25.8, 11.7);
+        \draw (0.199999999999999, 13.5) node[anchor=west] {\sffamily \scriptsize 6};
+        \draw (4.5, 12.9) node[align=left] {\sffamily \hinshi{熟} …が上手だ};
+        \draw (4.5, 11.1) node[align=left] {\sffamily \footnotesize 彼女は漫画を描くのが上手だ。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 8.2) -- (7.8, 8.2);
+        \draw (18.2, 10) node[anchor=west] {\sffamily \scriptsize 7};
+        \draw (22.5, 9.4) node[align=left] {\sffamily \hinshi{名} （可）体育館};
+        \draw (22.5, 7.6) node[align=left] {\sffamily \footnotesize 写真に写っている体育館を見つけられるかな？};
+        % \draw[dotted,thin,gray] (17.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 8.2) -- (16.8, 8.2);
+        \draw (9.2, 10) node[anchor=west] {\sffamily \scriptsize 8};
+        \draw (13.5, 9.4) node[align=left] {\sffamily \hinshi{副} たまに・時々};
+        \draw (13.5, 7.6) node[align=left] {\sffamily \footnotesize マオは放課後、体育館でバスケットボールをすることがある。};
+        % \draw[dotted,thin,gray] (26.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 8.2) -- (25.8, 8.2);
+        \draw (0.199999999999999, 10) node[anchor=west] {\sffamily \scriptsize 9};
+        \draw (4.5, 9.4) node[align=left] {\sffamily \hinshi{副} しばしば・よく};
+        \draw (4.5, 7.6) node[align=left] {\sffamily \footnotesize 彼はよく理科室に行きます。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 4.7) -- (7.8, 4.7);
+        \draw (18.2, 6.5) node[anchor=west] {\sffamily \scriptsize 10};
+        \draw (22.5, 5.9) node[align=left] {\sffamily \hinshi{名} （可）宇宙飛行士};
+        \draw (22.5, 4.1) node[align=left] {\sffamily \footnotesize 彼は宇宙飛行士になりたいのです。};
+        % \draw[dotted,thin,gray] (17.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 4.7) -- (16.8, 4.7);
+        \draw (9.2, 6.5) node[anchor=west] {\sffamily \scriptsize 11};
+        \draw (13.5, 5.9) node[align=left] {\sffamily \hinshi{前} …と一緒に};
+        \draw (13.5, 4.1) node[align=left] {\sffamily \footnotesize 彼は少女と将棋を指しています。};
+        % \draw[dotted,thin,gray] (26.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 4.7) -- (25.8, 4.7);
+        \draw (0.199999999999999, 6.5) node[anchor=west] {\sffamily \scriptsize 12};
+        \draw (4.5, 5.9) node[align=left] {\sffamily \hinshi{形} むずかしい・困難な};
+        \draw (4.5, 4.1) node[align=left] {\sffamily \footnotesize とても難しいよ。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 1.2) -- (7.8, 1.2);
+        \draw (18.2, 3) node[anchor=west] {\sffamily \scriptsize 13};
+        \draw (22.5, 2.4) node[align=left] {\sffamily \hinshi{動} （他）〈練習などによって〉･･･を学ぶ};
+        \draw (22.5, 0.6) node[align=left] {\sffamily \footnotesize 日本のスポーツを学びたい。};
+        % \draw[dotted,thin,gray] (17.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 1.2) -- (16.8, 1.2);
+        \draw (9.2, 3) node[anchor=west] {\sffamily \scriptsize 14};
+        \draw (13.5, 2.4) node[align=left] {\sffamily \hinshi{形} 伝統の};
+        \draw (13.5, 0.6) node[align=left] {\sffamily \footnotesize これは日本の伝統的なスポーツである。};
+        % \draw[dotted,thin,gray] (26.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 1.2) -- (25.8, 1.2);
+        \draw (0.199999999999999, 3) node[anchor=west] {\sffamily \scriptsize 15};
+        \draw (4.5, 2.4) node[align=left] {\sffamily \hinshi{名} 朝食};
+        \draw (4.5, 0.6) node[align=left] {\sffamily \footnotesize 朝食を作ることもあるんだ。};
+
+    \end{tikzpicture}
+\end{figure}
+\begin{figure}[p!]
+    \centering
+    \begin{tikzpicture}
+        \draw[dotted,thin,gray] (0,0) grid[xstep=9,ystep=3.5] (27,17.5);
+    
+        \draw[dotted,thin,gray] (0.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 15.2) -- (7.8, 15.2);
+        \draw (8.8, 17) node[anchor=east] {\sffamily \scriptsize 16};
+        \draw (4.5, 16.4) node[anchor=center] {\sffamily \Huge someday};
+        \draw (4.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈsʌmˌdeɪ}\ ]};
+        \draw (4.5, 14.6) node[align=left] {\footnotesize I want to learn to paint someday.};
+        \draw[dotted,thin,gray] (9.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 15.2) -- (16.8, 15.2);
+        \draw (17.8, 17) node[anchor=east] {\sffamily \scriptsize 17};
+        \draw (13.5, 16.4) node[anchor=center] {\sffamily \Huge well};
+        \draw (13.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈwɛl}\ ]};
+        \draw (13.5, 14.6) node[align=left] {\footnotesize I can play baseball very well.};
+        \draw[dotted,thin,gray] (18.7, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 15.2) -- (25.8, 15.2);
+        \draw (26.8, 17) node[anchor=east] {\sffamily \scriptsize 18};
+        \draw (22.5, 16.4) node[anchor=center] {\sffamily \Huge festival};
+        \draw (22.5, 15.6) node[anchor=center] {\Large [\ {\ipafont ˈfɛstəvəl}\ ]};
+        \draw (22.5, 14.6) node[align=left] {\footnotesize We have an music festival in fall?};
+
+    
+        \draw[dotted,thin,gray] (0.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 11.7) -- (7.8, 11.7);
+        \draw (8.8, 13.5) node[anchor=east] {\sffamily \scriptsize 19};
+        \draw (4.5, 12.9) node[anchor=center] {\sffamily \Huge travel};
+        \draw (4.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈtrævəl}\ ]};
+        \draw (4.5, 11.1) node[align=left] {\footnotesize My family often travel.};
+        \draw[dotted,thin,gray] (9.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 11.7) -- (16.8, 11.7);
+        \draw (17.8, 13.5) node[anchor=east] {\sffamily \scriptsize 20};
+        \draw (13.5, 12.9) node[anchor=center] {\sffamily \Huge popular};
+        \draw (13.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈpɑːpjəlɚ}\ ]};
+        \draw (13.5, 11.1) node[align=left] {\footnotesize Hambergers are a popular food there.};
+        \draw[dotted,thin,gray] (18.7, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 11.7) -- (25.8, 11.7);
+        \draw (26.8, 13.5) node[anchor=east] {\sffamily \scriptsize 21};
+        \draw (22.5, 12.9) node[anchor=center] {\sffamily \Huge be interested in …};
+        \draw (22.5, 12.1) node[anchor=center] {\Large [\ {\ipafont ˈbiː ˈɪntrəstəd ˈɪn}\ ]};
+        \draw (22.5, 11.1) node[align=left] {\footnotesize I'm interested in Asian countries.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 8.2) -- (7.8, 8.2);
+        \draw (8.8, 10) node[anchor=east] {\sffamily \scriptsize 22};
+        \draw (4.5, 9.4) node[anchor=center] {\sffamily \Huge be famous for …};
+        \draw (4.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈbiː ˈfeɪməs ˈfoɚ}\ ]};
+        \draw (4.5, 7.6) node[align=left] {\footnotesize Rome is famous for delicious pizza.};
+        \draw[dotted,thin,gray] (9.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 8.2) -- (16.8, 8.2);
+        \draw (17.8, 10) node[anchor=east] {\sffamily \scriptsize 23};
+        \draw (13.5, 9.4) node[anchor=center] {\sffamily \Huge question};
+        \draw (13.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈkwɛstʃən}\ ]};
+        \draw (13.5, 7.6) node[align=left] {\footnotesize May I ask you some questions?};
+        \draw[dotted,thin,gray] (18.7, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 8.2) -- (25.8, 8.2);
+        \draw (26.8, 10) node[anchor=east] {\sffamily \scriptsize 24};
+        \draw (22.5, 9.4) node[anchor=center] {\sffamily \Huge meet};
+        \draw (22.5, 8.6) node[anchor=center] {\Large [\ {\ipafont ˈmiːt}\ ]};
+        \draw (22.5, 7.6) node[align=left] {\footnotesize Nice to meet you.};
+
+    
+        \draw[dotted,thin,gray] (0.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 4.7) -- (7.8, 4.7);
+        \draw (8.8, 6.5) node[anchor=east] {\sffamily \scriptsize 25};
+        \draw (4.5, 5.9) node[anchor=center] {\sffamily \Huge just};
+        \draw (4.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈʤʌst}\ ]};
+        \draw (4.5, 4.1) node[align=left] {\footnotesize You're just like me.};
+        \draw[dotted,thin,gray] (9.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 4.7) -- (16.8, 4.7);
+        \draw (17.8, 6.5) node[anchor=east] {\sffamily \scriptsize 26};
+        \draw (13.5, 5.9) node[anchor=center] {\sffamily \Huge friendly};
+        \draw (13.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈfrɛndli}\ ]};
+        \draw (13.5, 4.1) node[align=left] {\footnotesize You're friendly. Thanks for talking.};
+        \draw[dotted,thin,gray] (18.7, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 4.7) -- (25.8, 4.7);
+        \draw (26.8, 6.5) node[anchor=east] {\sffamily \scriptsize 27};
+        \draw (22.5, 5.9) node[anchor=center] {\sffamily \Huge student};
+        \draw (22.5, 5.1) node[anchor=center] {\Large [\ {\ipafont ˈstuːdn̩t}\ ]};
+        \draw (22.5, 4.1) node[align=left] {\footnotesize Are you a new student?};
+
+    
+        \draw[dotted,thin,gray] (0.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 1.2) -- (7.8, 1.2);
+        \draw (8.8, 3) node[anchor=east] {\sffamily \scriptsize 28};
+        \draw (4.5, 2.4) node[anchor=center] {\sffamily \Huge class};
+        \draw (4.5, 1.6) node[anchor=center] {\Large [\ {\ipafont ˈklæs}\ ]};
+        \draw (4.5, 0.6) node[align=left] {\footnotesize I'm Ken. You are in my class!};
+        \draw[dotted,thin,gray] (9.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 1.2) -- (16.8, 1.2);
+        \draw (17.8, 3) node[anchor=east] {\sffamily \scriptsize 29};
+        \draw (13.5, 2.4) node[anchor=center] {\sffamily \Huge helpful};
+        \draw (13.5, 1.6) node[anchor=center] {\Large [\ {\ipafont ˈhɛlpfəl}\ ]};
+        \draw (13.5, 0.6) node[align=left] {\footnotesize Thanks. You're so helpful.};
+        \draw[dotted,thin,gray] (18.7, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 1.2) -- (25.8, 1.2);
+        \draw (26.8, 3) node[anchor=east] {\sffamily \scriptsize 30};
+        \draw (22.5, 2.4) node[anchor=center] {\sffamily \Huge I see.};
+        \draw (22.5, 1.6) node[anchor=center] {\Large [\ {\ipafont ˈaɪ ˈsiː}\ ]};
+        \draw (22.5, 0.6) node[align=left] {\footnotesize I see. Let's go.};
+
+    \end{tikzpicture}
+\end{figure}
+
+\begin{figure}[p!]
+    \centering
+    \begin{tikzpicture}
+        % \draw[dotted,thin,gray] (0,0) grid[xstep=9,ystep=3.5] (27,17.5);
+    
+        % \draw[dotted,thin,gray] (8.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 15.2) -- (7.8, 15.2);
+        \draw (18.2, 17) node[anchor=west] {\sffamily \scriptsize 16};
+        \draw (22.5, 16.4) node[align=left] {\sffamily \hinshi{副} いつか};
+        \draw (22.5, 14.6) node[align=left] {\sffamily \footnotesize いつか絵が描けるように学びたいんだ。};
+        % \draw[dotted,thin,gray] (17.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 15.2) -- (16.8, 15.2);
+        \draw (9.2, 17) node[anchor=west] {\sffamily \scriptsize 17};
+        \draw (13.5, 16.4) node[align=left] {\sffamily \hinshi{副} 上手に・うまく・よく};
+        \draw (13.5, 14.6) node[align=left] {\sffamily \footnotesize 私は野球がすごくうまくできるんだ。};
+        % \draw[dotted,thin,gray] (26.4, 15.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 15.2) -- (25.8, 15.2);
+        \draw (0.199999999999999, 17) node[anchor=west] {\sffamily \scriptsize 18};
+        \draw (4.5, 16.4) node[align=left] {\sffamily \hinshi{名} （可）祭り};
+        \draw (4.5, 14.6) node[align=left] {\sffamily \footnotesize 秋に音楽祭があるんですか？};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 11.7) -- (7.8, 11.7);
+        \draw (18.2, 13.5) node[anchor=west] {\sffamily \scriptsize 19};
+        \draw (22.5, 12.9) node[align=left] {\sffamily \hinshi{動} （自）旅行する};
+        \draw (22.5, 11.1) node[align=left] {\sffamily \footnotesize 私の家族はよく旅行します。};
+        % \draw[dotted,thin,gray] (17.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 11.7) -- (16.8, 11.7);
+        \draw (9.2, 13.5) node[anchor=west] {\sffamily \scriptsize 20};
+        \draw (13.5, 12.9) node[align=left] {\sffamily \hinshi{形} 人気のある・評判のよい};
+        \draw (13.5, 11.1) node[align=left] {\sffamily \footnotesize ハンバーガーは現地では人気のある食べ物だよ。};
+        % \draw[dotted,thin,gray] (26.4, 12.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 11.7) -- (25.8, 11.7);
+        \draw (0.199999999999999, 13.5) node[anchor=west] {\sffamily \scriptsize 21};
+        \draw (4.5, 12.9) node[align=left] {\sffamily \hinshi{熟} …に興味がある};
+        \draw (4.5, 11.1) node[align=left] {\sffamily \footnotesize 私はアジアの国々に興味がある。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 8.2) -- (7.8, 8.2);
+        \draw (18.2, 10) node[anchor=west] {\sffamily \scriptsize 22};
+        \draw (22.5, 9.4) node[align=left] {\sffamily \hinshi{熟} …で有名である};
+        \draw (22.5, 7.6) node[align=left] {\sffamily \footnotesize ローマはおいしいピザで有名だ。};
+        % \draw[dotted,thin,gray] (17.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 8.2) -- (16.8, 8.2);
+        \draw (9.2, 10) node[anchor=west] {\sffamily \scriptsize 23};
+        \draw (13.5, 9.4) node[align=left] {\sffamily \hinshi{名} （可）質問・問題};
+        \draw (13.5, 7.6) node[align=left] {\sffamily \footnotesize いくつか質問してもいいですか？};
+        % \draw[dotted,thin,gray] (26.4, 8.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 8.2) -- (25.8, 8.2);
+        \draw (0.199999999999999, 10) node[anchor=west] {\sffamily \scriptsize 24};
+        \draw (4.5, 9.4) node[align=left] {\sffamily \hinshi{動} （他）〈人・ものと〉出会う};
+        \draw (4.5, 7.6) node[align=left] {\sffamily \footnotesize はじめまして。};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 4.7) -- (7.8, 4.7);
+        \draw (18.2, 6.5) node[anchor=west] {\sffamily \scriptsize 25};
+        \draw (22.5, 5.9) node[align=left] {\sffamily \hinshi{副} まさに・ちょうど};
+        \draw (22.5, 4.1) node[align=left] {\sffamily \footnotesize 君は私と同じだね。};
+        % \draw[dotted,thin,gray] (17.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 4.7) -- (16.8, 4.7);
+        \draw (9.2, 6.5) node[anchor=west] {\sffamily \scriptsize 26};
+        \draw (13.5, 5.9) node[align=left] {\sffamily \hinshi{形} 友好的な・親しみのある};
+        \draw (13.5, 4.1) node[align=left] {\sffamily \footnotesize 君は話しやすいね。話しかけてくれてありがとう。};
+        % \draw[dotted,thin,gray] (26.4, 5.25) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 4.7) -- (25.8, 4.7);
+        \draw (0.199999999999999, 6.5) node[anchor=west] {\sffamily \scriptsize 27};
+        \draw (4.5, 5.9) node[align=left] {\sffamily \hinshi{名} （可）学生・生徒};
+        \draw (4.5, 4.1) node[align=left] {\sffamily \footnotesize 君は新入生？};
+
+    
+        % \draw[dotted,thin,gray] (8.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (1.2, 1.2) -- (7.8, 1.2);
+        \draw (18.2, 3) node[anchor=west] {\sffamily \scriptsize 28};
+        \draw (22.5, 2.4) node[align=left] {\sffamily \hinshi{名} （可）〈学校の〉クラス・（不）〈クラスの \\ \sffamily \hspace{1\zw} \hspace{0.05em} 〉授業};
+        \draw (22.5, 0.6) node[align=left] {\sffamily \footnotesize 僕はケンだよ。君は僕のクラスだね！};
+        % \draw[dotted,thin,gray] (17.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (10.2, 1.2) -- (16.8, 1.2);
+        \draw (9.2, 3) node[anchor=west] {\sffamily \scriptsize 29};
+        \draw (13.5, 2.4) node[align=left] {\sffamily \hinshi{形} 助けになる・役に立つ};
+        \draw (13.5, 0.6) node[align=left] {\sffamily \footnotesize ありがとう。とても助かるわ。};
+        % \draw[dotted,thin,gray] (26.4, 1.75) circle (0.25);
+        \draw[dotted,thin,gray] (19.2, 1.2) -- (25.8, 1.2);
+        \draw (0.199999999999999, 3) node[anchor=west] {\sffamily \scriptsize 30};
+        \draw (4.5, 2.4) node[align=left] {\sffamily \hinshi{慣} なるほど・わかった・そうなんだ};
+        \draw (4.5, 0.6) node[align=left] {\sffamily \footnotesize そうなんだね。よし行こう。};
+
+    \end{tikzpicture}
+\end{figure}
+
+\end{document}
